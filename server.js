@@ -8,6 +8,11 @@ app.use(cors());
 
 const DATA_FILE = "./data/events.json";
 
+// Optional homepage route
+app.get("/", (req, res) => {
+  res.send("Welcome to EventHub API! Use /api/events to get events.");
+});
+
 // POST /api/events
 app.post("/api/events", (req, res) => {
   const { title, description, date, location, maxAttendees } = req.body;
