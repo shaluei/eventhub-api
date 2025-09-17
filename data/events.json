@@ -1,0 +1,12 @@
+[
+  {
+    "eventId": "EVT-1758089331454",
+    "title": "Concert",
+    "description": "",
+    "date": "2025-10-01",
+    "location": "Mumbai",
+    "maxAttendees": 100,
+    "currentAttendees": 0,
+    "status": "upcoming"
+  }
+]
